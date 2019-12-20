@@ -1496,6 +1496,17 @@
       <field type="uint8_t" name="status" enum="GOPRO_REQUEST_STATUS">Status.</field>
     </message>
     <!-- 219 to 224 RESERVED for more GOPRO-->
+    <message id="225" name="PMU">
+      <description>PMU sensor output.</description>
+      <field type="float" name="VbattA">Voltage battery A.</field>
+      <field type="float" name="IbattA">Current battery A.</field>
+      <field type="float" name="VbattB">Voltage battery B.</field>
+      <field type="float" name="IbattB">Current battery B.</field>
+      <field type="float" name="Vbatt12S">Voltage battery 12S.</field>
+      <field type="uint16_t" name="PMU_RPM">Main engine speed.</field>
+      <field type="uint8_t" name="PMU_temp">PMU temperature.</field>
+      <field type="uint16_t" name="PMU_status">PMU status.</field>
+    </message>
     <message id="226" name="RPM">
       <description>RPM sensor output.</description>
       <field type="float" name="rpm1">RPM Sensor1.</field>
