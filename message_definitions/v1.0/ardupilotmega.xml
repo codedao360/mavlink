@@ -1505,7 +1505,13 @@
       <field type="float" name="Vbatt12S">Voltage battery 12S.</field>
       <field type="uint16_t" name="PMU_RPM">Main engine speed.</field>
       <field type="uint8_t" name="PMU_temp">PMU temperature.</field>
-      <field type="uint16_t" name="PMU_status">PMU status.</field>
+      <field type="int8_t" name="PMU_frame_ok">PMU frame status.</field>
+      <field type="int8_t" name="PMU_com">PMU communication.</field>
+      <field type="float" name="Fuel_level">Fuel level.</field>
+      <field type="float" name="Raw_fuel_level">Raw fuel level.</field>
+      <field type="float" name="env_temp">Environment temperature.</field>
+      <field type="float" name="env_RH">Environment relative humidity.</field>
+      <field type="uint16_t" name="PMU_data_status">PMU data status.</field>
     </message>
     <message id="226" name="RPM">
       <description>RPM sensor output.</description>
