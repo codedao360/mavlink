@@ -1593,7 +1593,7 @@
       <field name="SSA" type="float" units="deg">Side Slip Angle.</field>
     </message>
     <!-- Binh edit -->
-    <message id="11025" name="ADC">
+    <message id="11025" name="AUX_ADC">
       <description>Auxiliary ADC.</description>
       <field type="float" name="Fuel_level">Fuel level.</field>
       <field type="float" name="Raw_fuel_level">Raw fuel level.</field>
