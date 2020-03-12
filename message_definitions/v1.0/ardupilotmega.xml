@@ -19,6 +19,18 @@
     </enum>
     <!-- ardupilot specific MAV_CMD_* commands -->
     <enum name="MAV_CMD">
+      <!-- Binh edit -->
+      <entry value="187" name="MAV_CMD_DO_START_ENGINE">
+        <description>Manual cranking the main engine.</description>
+        <param index="1">Empty.</param>
+        <param index="2">Empty.</param>
+        <param index="3">Empty.</param>
+        <param index="4">Empty.</param>
+        <param index="5">Empty.</param>
+        <param index="6">Empty.</param>
+        <param index="7">Empty.</param>
+      </entry>
+      <!-- Binh end -->
       <entry value="211" name="MAV_CMD_DO_GRIPPER">
         <description>Mission command to operate EPM gripper.</description>
         <param index="1">Gripper number (a number from 1 to max number of grippers on the vehicle).</param>
